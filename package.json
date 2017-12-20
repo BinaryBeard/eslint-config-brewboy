@@ -1,0 +1,22 @@
+{
+    "name": "eslint-config-brewboy",
+    "version": "1.0.0",
+    "description": "The public eslint configuration for brewboy",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Sam Bantner <sam.bantner@me.com> (https://github.com/BinaryBeard)",
+    "license": "SEE LICENSE IN LICENSE.txt",
+    "keywords": [
+        "eslint",
+        "eslintconfig"
+    ],
+    "dependencies": {
+        "eslint": ">= 4"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BinaryBeard/eslint-config-brewboy.git"
+    }
+}
