@@ -1,10 +1,10 @@
 {
     "name": "eslint-config-brewboy",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "The public eslint configuration for brewboy",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "eslint index.js"
     },
     "author": "Sam Bantner <sam.bantner@me.com> (https://github.com/BinaryBeard)",
     "license": "SEE LICENSE IN LICENSE.txt",
@@ -12,8 +12,14 @@
         "eslint",
         "eslintconfig"
     ],
-    "dependencies": {
+    "peerDependencies": {
         "eslint": ">= 4"
+    },
+    "dependencies": {
+        "eslint-plugin-promise": "^3.6.0"
+    },
+    "devDependencies": {
+        "eslint": "^4.15.0"
     },
     "repository": {
         "type": "git",
