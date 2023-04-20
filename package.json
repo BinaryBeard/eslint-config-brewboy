@@ -19,7 +19,7 @@
         "eslint-plugin-promise": "^3.6.0"
     },
     "devDependencies": {
-        "eslint": "^4.15.0"
+        "eslint": "^8.38.0"
     },
     "repository": {
         "type": "git",
